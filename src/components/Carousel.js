@@ -20,9 +20,9 @@ class Carousel extends React.Component {
             {
                 id: 1,
                 title: "KetoKing",
-                subTitle: "Online Competitive Team Official Website",
+                subTitle: "iOS App helping users to incorporate keto into their diet.",
                 //imgSrc: ys,
-                link: "https://www.95xesports.com",
+                link: "/ketoKing",
                 selected: false
             },
             {
@@ -30,21 +30,20 @@ class Carousel extends React.Component {
                 title: "ActiveBingo",
                 subTitle: "Online Competitive Team Official Website",
                 //imgSrc: yes,
-                link: "https://www.95xesports.com",
+                link: "/activeBingo",
                 selected: false
             },
             {
                 id: 3,
                 title: "Plantamagotchi",
-                subTitle: "Online Competitive Team Official Website",
+                subTitle: "",
                 //imgSrc: yes,
-                //imgSrc: youtube,
-                link: "https://www.95xesports.com",
+                link: "/plantamagotchi",
                 selected: false
             }
-        ]
+            ]
         }
-    
+
     }
 
     handleCardClick = (id, card) => {
@@ -53,7 +52,7 @@ class Carousel extends React.Component {
         items[id].selected = items[id].selected ? false : true;
 
         items.forEach(item => {
-            if(item.id !== id) {
+            if (item.id !== id) {
                 item.selected = false;
             }
         });
