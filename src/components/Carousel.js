@@ -28,7 +28,7 @@ class Carousel extends React.Component {
             {
                 id: 2,
                 title: "ActiveBingo",
-                subTitle: "Online Competitive Team Official Website",
+                subTitle: "Active Living, enhancing lives and experiences as you age.",
                 //imgSrc: yes,
                 link: "/activeBingo",
                 selected: false
@@ -36,7 +36,7 @@ class Carousel extends React.Component {
             {
                 id: 3,
                 title: "Plantamagotchi",
-                subTitle: "",
+                subTitle: "'Growing plants like pets.' Physical interactive game.",
                 //imgSrc: yes,
                 link: "/plantamagotchi",
                 selected: false
