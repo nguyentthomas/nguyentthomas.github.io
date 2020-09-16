@@ -37,10 +37,10 @@ class App extends React.Component {
         title: "Let's Connect"
       },
       activeBingo: {
-        title: "ActiveBingo"
+        title: "Active Bingo"
       },
       ketoKing: {
-        title: "KetoKing"
+        title: "Keto King"
       },
       plantamagotchi: {
         title: "Plantamgotchi"
