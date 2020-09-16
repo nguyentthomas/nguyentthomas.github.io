@@ -1,7 +1,15 @@
 import React from "react";
 
+//import components
 import Hero from "../components/Hero";
 import Content from "../components/Content";
+
+//import images
+import idea1 from "../images/activeBingo/idea1.jpg";
+import idea2 from "../images/activeBingo/idea2.jpg";
+import userStories from "../images/activeBingo/userStories.png";
+import screencaps from "../images/activeBingo/screencaps.png";
+import wireframe from "../images/activeBingo/wireframe.jpg";
 
 function ActiveBingoPage(props) {
 
@@ -9,47 +17,55 @@ function ActiveBingoPage(props) {
         <div>
             <Hero title={props.title} />
             <Content>
-                <h3>Active Bingo</h3>
-
                 <h5>My role:</h5>
-                <p>
-                    This project took place during my final semester at University from July 2019 – October 2019. In a group
-                    of 5, I was
-                    responsible for leading the overall design and experience. I was also responsible of constructing
-                    accompanying UI elements.
-                </p>
+                <p>This project took place during my final semester at University from July 2019 – October 2019. In a group
+                of 5, I was responsible for leading the overall design and experience. I was also responsible of constructing
+                accompanying UI elements.</p>
 
                 <h5>The Problem</h5>
                 <p>With the growing elderly population and the divide between generations becoming larger. The aging
                 population can seem quite left without experiences that help accomodate or enhance their experience.
                 Hence, this project focuses on Active Aging. To address the problem, the scope of the project needed to
                 narrow it's focus.</p>
-                <p>
-                    We began by asking around, researching and gathering data on what could not only make life more
-                    convienient but also increase the wellbeing and initiate a change in lifestyle or improve quality of
-                    life. Upon listening to multiple qualms, we narrowed it to Health and reigniting the connection to
-                    society.
-                </p>
+
+                <p>We began by asking around, researching and gathering data on what could not only make life more
+                convienient but also increase the wellbeing and initiate a change in lifestyle or improve quality of
+                life. Upon listening to multiple qualms, we narrowed it to Health and reigniting the connection to
+                society.</p>
+
+                <div className="image-box">
+                    <img className="imgActiveBingo" alt="idea1" src={idea1} />
+                    <img className="imgActiveBingo" alt="idea2" src={idea2} />
+                    <img className="imgActiveBingo" alt="userStories" src={userStories} />
+                </div>
+
                 <h5>The Approach</h5>
                 <p>Upon different approaches, we finally set on the idea of combining a well-known game with physical
                 exercises and social elements. This would allow users to socialise with their friends over
                 long-distances whilst not being physically near others, whilst also allowing them to interact over
                 something simple yet fun with the bonus aspect of staying physically fit. Ultimately, trying to tie the
                 entire experience around promoting health and wellbeing.</p>
+
+                <div className="image-box">
+                    <img className="imgActiveBingo" alt="wireframe" src={wireframe} />
+                </div>
+
                 <h5>Usability Testing / User Studies</h5>
                 <p>We proceeded to seek further feedback on the design and prototype, in order to create a valuable and
                 effective experience for users. We decided upon user usability tests to analyse what functions and
                 aspects of our design needed improvement. Some of the qualms that users presented in the first series of
                 our user and usability study were:</p>
+
                 <p>"Not intuitive enough to call Bingo" - Users wanted a more engaging and clear way to call Bingo. </p>
+
                 <p>"Leaderboard is cluttered and not inclusive" - Competition did not seem to increase engagement, a new
                 approach in increasing the return playability needed to be brought up.</p>
+
                 <p>"Too hard to get started with playing with friends" - This was directly linked to the usability and core
                 functionality of the app, it was too much of as hassle in its current state to play a game together. A
-                more efficient and effective way was required to counteract the inconvienience and frustration of users.
-            </p>
+                more efficient and effective way was required to counteract the inconvienience and frustration of users.</p>
                 <p>In summary, the findings:
-            <ol>
+                    <ol>
                         <li>Usability Issues</li>
                         <li>Experience Optimisation</li>
                         <li>Progression and Competition</li>
@@ -69,7 +85,7 @@ function ActiveBingoPage(props) {
                 the experience and support active aging. The user experience the prototype aims to support
                 is one of familiarity. It accomplishes this with the basis of the game being one that users
                 similar to that of the persona would have experienced in the past.</p>
-                <p><b>Functions:</b><b></b>
+                <p><b>Functions:</b>
                     <ul>
                         <li><b>Registration</b>: For new users the registration page will ask the user to sign up with their
                 email address. The purpose of registering is to allow the user to create a profile, which will
@@ -104,6 +120,9 @@ function ActiveBingoPage(props) {
                 interactively highlighting different ways of winning a game.</li>
                     </ul>
                 </p>
+                <div className="image-box">
+                    <img className="imgActiveBingo" alt="screencaps" src={screencaps} />
+                </div>
             </Content>
         </div>
     )

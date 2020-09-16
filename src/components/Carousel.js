@@ -1,9 +1,16 @@
 import React from "react";
 
+//import components
 import Card from "../components/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
+//import images
+import ninetyFiveXLogo from "../images/95x.png";
+import ketoKingLogo from "../images/ketoKing.png";
+import activeBingoLogo from "../images/activeBingo.png";
+
+//class
 class Carousel extends React.Component {
 
     constructor(props) {
@@ -13,7 +20,7 @@ class Carousel extends React.Component {
                 id: 0,
                 title: "95x eSports",
                 subTitle: "Online Competitive Team Official Website",
-                //imgSrc: ninetyfivex,
+                imgSrc: ninetyFiveXLogo,
                 link: "https://www.95xesports.com",
                 selected: false
             },
@@ -21,7 +28,7 @@ class Carousel extends React.Component {
                 id: 1,
                 title: "KetoKing",
                 subTitle: "iOS App helping users to incorporate keto into their diet.",
-                //imgSrc: ys,
+                imgSrc: ketoKingLogo,
                 link: "/ketoKing",
                 selected: false
             },
@@ -29,7 +36,7 @@ class Carousel extends React.Component {
                 id: 2,
                 title: "ActiveBingo",
                 subTitle: "Active Living, enhancing lives and experiences as you age.",
-                //imgSrc: yes,
+                imgSrc: activeBingoLogo,
                 link: "/activeBingo",
                 selected: false
             },
@@ -37,7 +44,7 @@ class Carousel extends React.Component {
                 id: 3,
                 title: "Plantamagotchi",
                 subTitle: "'Growing plants like pets.' Physical interactive game.",
-                //imgSrc: yes,
+                //imgSrc: dummy,
                 link: "/plantamagotchi",
                 selected: false
             }
