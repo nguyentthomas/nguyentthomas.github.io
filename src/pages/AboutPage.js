@@ -10,7 +10,7 @@ function AboutPage(props) {
             <Hero title={props.title} />
             <Content>
                 <p>I'm a UX designer and Web Developer, currently located in Sydney. I'm passionate about designing unique and engaging experiences. In order to aid in visualising and conceptualising these experience,
-                I am well equipped in prototyping tools, specifically Sketch, Figma and Adobe XD.</p>
+                I am well equipped in prototyping tools, specifically Sketch, Figma and Adobe XD. I am a graduate with a Bachelor's of Science (in Information Technology) and a Interaction Design Major.</p>
                 <p>With expertise to create and develop within multiple programming languages, technologies and frameworks, of which include: JavaScript(Node JS, React), PHP, Python, Java and, of course, HTML and CSS.
                 I'm constantly learning new things. Currently, those things include gaining more experience with JavaScript, specifically React, Node JS as well as App Development with React Native and XCode/Swift.
                 </p>
