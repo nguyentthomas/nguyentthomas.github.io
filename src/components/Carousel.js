@@ -14,7 +14,7 @@ class Carousel extends React.Component {
                 title: "95x eSports",
                 subTitle: "Online Competitive Team Official Website",
                 //imgSrc: ninetyfivex,
-                link: "https://www.95xesports.com",
+                //link: "https://www.95xesports.com",
                 selected: false
             },
             {
