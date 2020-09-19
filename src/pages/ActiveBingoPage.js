@@ -53,7 +53,7 @@ function ActiveBingoPage(props) {
                 <h5>Usability Testing / User Studies</h5>
                 <p>We proceeded to seek further feedback on the design and prototype, in order to create a valuable and
                 effective experience for users. We decided upon user usability tests to analyse what functions and
-                aspects of our design needed improvement. Some of the qualms that users presented in the first series of
+                aspects of our design needed improvement. I was one of the organisers and interviewers that aided in conducting the user study. Of which we gained insight where some of the qualms that users presented in the first series of
                 our user and usability study were:</p>
 
                 <p>"Not intuitive enough to call Bingo" - Users wanted a more engaging and clear way to call Bingo. </p>

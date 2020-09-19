@@ -9,8 +9,6 @@ function PlantamagotchiPage(props) {
         <div>
             <Hero title={props.title} />
             <Content>
-                <h3>Plantamagotchi</h3>
-
                 <h5>My Role:</h5>
                 <p>This project was completed collaboratively as part of the “Prototyping Physical Interaction” unit as part
                 of
@@ -25,7 +23,7 @@ function PlantamagotchiPage(props) {
                 <p></p>
 
                 <h5>The Approach</h5>
-                <p></p>
+                <p>Reflecting on the problem at hand, </p>
 
                 <h5>Usability Testing / User Studies</h5>
                 <p></p>
