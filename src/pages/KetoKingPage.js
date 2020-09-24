@@ -46,7 +46,9 @@ function KetoKingPage(props) {
                 </p>
 
                 <h5>Overview of Final Functional Prototype</h5>
-                <p>Here's a preview of the functional prototype in a typical use-case: <a href="https://www.youtube.com/watch?v=bIP5VCpZhNM">https://www.youtube.com/watch?v=bIP5VCpZhNM</a></p>
+                <p>
+                    Here's a preview of the functional prototype in a typical use-case: <a href="https://www.youtube.com/watch?v=bIP5VCpZhNM">https://www.youtube.com/watch?v=bIP5VCpZhNM</a>
+                </p>
             </Content>
         </div>
     )
