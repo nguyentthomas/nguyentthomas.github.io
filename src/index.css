@@ -64,3 +64,8 @@ code {
   height: auto;
   width: 50vw;
 }
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
