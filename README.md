@@ -1,3 +1,3 @@
 ## nguyentthomas
 Portfolio: made with HTML, React and CSS
-Link: http://github.io/nguyentthomas
+Link: http://nguyentthomas.github.io
